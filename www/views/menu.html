@@ -1,0 +1,43 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-assertive">
+      <ion-nav-back-button></ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-content>
+      <div class="cover">
+        <img src="img/default_avatar.png">
+        <div class="nickname">曹郁剑</div>
+        <div class="username">13262681330</div>
+      </div>
+
+      <div class="list">
+        <a menu-close href="#/app/headline" class="item item-icon-left">
+          <i class="icon ion-ios-home-outline"></i>
+          首页
+        </a>
+        <a menu-close href="#/app/function" class="item item-icon-left">
+          <i class="icon ion-ios-browsers-outline"></i>
+          理财产品
+        </a>
+        <a menu-close href="#/app/account" class="item item-icon-left">
+          <i class="icon ion-ios-person-outline"></i>
+          我的账户
+        </a>
+      </div>
+      <div class="list">
+        <a menu-close href="#/app/setting" class="item">设置</a>
+        <a menu-close href="#/app/help" class="item">帮助和反馈</a>
+        <a menu-close href="#/app/about" class="item">关于</a>
+        <a menu-close href="#/app/family" class="item">Go-goal大全</a>
+      </div>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
